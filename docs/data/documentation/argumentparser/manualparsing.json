@@ -1,0 +1,534 @@
+{
+  "abstract" : [
+    {
+      "text" : "Provide your own array of command-line inputs or work directly with parsed command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ManualParsing"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "role" : "article",
+    "roleHeading" : "Article",
+    "title" : "Manual Parsing and Testing"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For most programs, denoting the root command type as ",
+              "type" : "text"
+            },
+            {
+              "code" : "@main",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " is all that’s necessary. As the program’s entry point, that type parses the command-line arguments to find the correct command from your tree of nested subcommands, instantiates and validates the result, and executes the chosen command. For more control, however, you can perform each of those steps manually.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Parsing-Arguments",
+          "level" : 2,
+          "text" : "Parsing Arguments",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For simple Swift scripts, and for those who prefer a straight-down-the-left-edge-of-the-screen scripting style, you can define a single ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableArguments",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " type to parse explicitly from the command-line arguments.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Let’s implement the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Select",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " command discussed in ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Validation",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", but using a scripty style instead of the typical command. First, we define the options as a ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableArguments",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " type:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "struct SelectOptions: ParsableArguments {",
+            "    @Option var count: Int = 1",
+            "    @Argument var elements: [String] = []",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The next step is to parse our options from the command-line input:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let options = SelectOptions.parseOrExit()"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The static ",
+              "type" : "text"
+            },
+            {
+              "code" : "parseOrExit()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method either returns a fully initialized instance of the type, or exits with an error message and code. Alternatively, you can call the throwing ",
+              "type" : "text"
+            },
+            {
+              "code" : "parse()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method if you’d like to catch any errors that arise during parsing.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "We can perform validation on the inputs and exit the script if necessary:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "guard let options.elements.count >= options.count else {",
+            "    let error = ValidationError(\"Please specify a 'count' less than the number of elements.\")",
+            "    SelectOptions.exit(withError: error)",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "As you would expect, the ",
+              "type" : "text"
+            },
+            {
+              "code" : "exit(withError:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method includes usage information when you pass it a ",
+              "type" : "text"
+            },
+            {
+              "code" : "ValidationError",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Finally, we print out the requested number of elements:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let chosen = options.elements",
+            "    .shuffled()",
+            "    .prefix(options.count)",
+            "print(chosen.joined(separator: \"\\n\"))"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "Parsing-Commands",
+          "level" : 2,
+          "text" : "Parsing Commands",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Manually parsing commands is a little more complex than parsing a simple ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableArguments",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " type. The result of parsing from a tree of subcommands may be of a different type than the root of the tree, so the static ",
+              "type" : "text"
+            },
+            {
+              "code" : "parseAsRoot()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method returns a type-erased ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableCommand",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Let’s see how this works by using the ",
+              "type" : "text"
+            },
+            {
+              "code" : "Math",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " command and subcommands defined in ",
+              "type" : "text"
+            },
+            {
+              "identifier" : ".\/CommandsAndSubcommands.md",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ". This time, instead of calling ",
+              "type" : "text"
+            },
+            {
+              "code" : "Math.main()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", we’ll call ",
+              "type" : "text"
+            },
+            {
+              "code" : "Math.parseAsRoot()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", and switch over the result:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "do {",
+            "    var command = try Math.parseAsRoot()",
+            "",
+            "    switch command {",
+            "    case var command as Math.Add:",
+            "        print(\"You chose to add \\(command.options.values.count) values.\")",
+            "        command.run()",
+            "    default:",
+            "        print(\"You chose to do something else.\")",
+            "        try command.run()",
+            "    }",
+            "} catch {",
+            "    Math.exit(withError: error)",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Our new logic intercepts the command between validation and running, and outputs an additional message:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "% math 10 15 7",
+            "You chose to add 3 values.",
+            "32",
+            "% math multiply 10 15 7",
+            "You chose to do something else.",
+            "1050"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        },
+        {
+          "anchor" : "Providing-Command-Line-Input",
+          "level" : 2,
+          "text" : "Providing Command-Line Input",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "All of the parsing methods — ",
+              "type" : "text"
+            },
+            {
+              "code" : "parse()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "code" : "parseOrExit()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", and ",
+              "type" : "text"
+            },
+            {
+              "code" : "parseAsRoot()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " — can optionally take an array of command-line inputs as an argument. You can use this capability to test your commands, to perform pre-parse filtering of the command-line arguments, or to manually execute commands from within the same or another target.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Let’s update our ",
+              "type" : "text"
+            },
+            {
+              "code" : "select",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " script above to strip out any words that contain all capital letters before parsing the inputs.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let noShoutingArguments = CommandLine.arguments.dropFirst().filter { phrase in",
+            "    phrase.uppercased() != phrase",
+            "}",
+            "let options = SelectOptions.parseOrExit(noShoutingArguments)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Now when we call our command, the parser won’t even see the capitalized words — ",
+              "type" : "text"
+            },
+            {
+              "code" : "HEY",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " won’t ever be printed:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "% select hi howdy HEY --count 2",
+            "hi",
+            "howdy",
+            "% select hi howdy HEY --count 2",
+            "howdy",
+            "hi"
+          ],
+          "syntax" : null,
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExperimentalFeatures"
+      ],
+      "title" : "Advanced Topics"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/manualparsing"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"./CommandsAndSubcommands.md": {
+  "identifier" : ".\/CommandsAndSubcommands.md",
+  "title" : "Commands and Subcommands",
+  "titleInlineContent" : [
+    {
+      "text" : "Commands and Subcommands",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : ".\/CommandsAndSubcommands.md"
+},
+"doc://ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ExperimentalFeatures": {
+  "abstract" : [
+    {
+      "text" : "Learn about ArgumentParser’s experimental features.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExperimentalFeatures",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Experimental Features",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/experimentalfeatures"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Validation": {
+  "abstract" : [
+    {
+      "text" : "Provide helpful feedback to users when things go wrong.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Validation",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Providing Custom Validation",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/validation"
+}
+}
+}

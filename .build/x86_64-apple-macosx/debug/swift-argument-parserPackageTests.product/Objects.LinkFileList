@@ -1,0 +1,89 @@
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/BashCompletionsGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/CompletionsGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/FishCompletionsGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Completions/ZshCompletionsGenerator.swift.o
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Argument.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/ArgumentHelp.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/ArgumentVisibility.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/CompletionKind.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Errors.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Flag.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/NameSpecification.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/Option.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Properties/OptionGroup.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/CommandConfiguration.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/EnumerableFlag.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ExpressibleByArgument.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableArguments.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableArgumentsValidation.swift.o'
+'/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsable Types/ParsableCommand.swift.o'
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentDecoder.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentDefinition.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ArgumentSet.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/CommandParser.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/InputOrigin.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/Name.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/Parsed.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ParsedValues.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/ParserError.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Parsing/SplitArguments.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/DumpHelpGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/HelpCommand.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/HelpGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/MessageInfo.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Usage/UsageGenerator.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/CollectionExtensions.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/SequenceExtensions.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/StringExtensions.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParser.build/Utilities/Tree.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/CustomParsingEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/DefaultSubcommandEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/DefaultsEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/EnumEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/EqualsEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/FlagsEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/JoinedEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/LongNameWithShortDashEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/NestedCommandEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/OptionGroupEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/OptionalEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/PositionalEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/RawRepresentableEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/RepeatingEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/ShortNameEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/SimpleEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/SingleValueParsingStrategyTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/SourceCompatEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/SubcommandEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/TransformEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/UnparsedValuesEndToEndTest.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserEndToEndTests.build/ValidationEndToEndTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserExampleTests.build/MathExampleTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserExampleTests.build/RepeatExampleTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserExampleTests.build/RollDiceExampleTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/HelpTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/PackageManager/Clean.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/PackageManager/Config.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/PackageManager/Describe.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/PackageManager/GenerateXcodeProject.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/PackageManager/Options.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserPackageManagerTests.build/Tests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserTestHelpers.build/StringHelpers.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserTestHelpers.build/TestHelpers.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserToolInfo.build/ToolInfo.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/CompletionScriptTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/DumpHelpGenerationTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/ErrorMessageTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/ExitCodeTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/HelpGenerationTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/InputOriginTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/MirrorTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/NameSpecificationTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/ParsableArgumentsValidationTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/SequenceExtensionTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/SplitArgumentTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/StringEditDistanceTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/StringSnakeCaseTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/StringWrappingTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/TreeTests.swift.o
+/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserUnitTests.build/UsageGenerationTests.swift.o

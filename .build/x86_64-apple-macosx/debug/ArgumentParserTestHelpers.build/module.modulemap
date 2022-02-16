@@ -1,0 +1,4 @@
+module ArgumentParserTestHelpers {
+    header "/Users/ethankusters/Tower/swift-argument-parser/.build/x86_64-apple-macosx/debug/ArgumentParserTestHelpers.build/ArgumentParserTestHelpers-Swift.h"
+    requires objc
+}

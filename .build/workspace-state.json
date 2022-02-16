@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swift-docc-plugin",
+          "kind" : "fileSystem",
+          "location" : "/Users/ethankusters/Tower/swift-docc-plugin",
+          "name" : "SwiftDocCPlugin"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/ethankusters/Tower/swift-docc-plugin"
+        },
+        "subpath" : "swift-docc-plugin"
+      }
+    ]
+  },
+  "version" : 5
+}
