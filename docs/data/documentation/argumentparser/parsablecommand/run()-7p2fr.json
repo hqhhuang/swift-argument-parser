@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Runs this command.",
+      "text" : "The behavior or functionality of this command.",
       "type" : "text"
     }
   ],
@@ -116,23 +116,15 @@
         {
           "inlineContent" : [
             {
-              "text" : "After implementing this method, you can run your command-line",
+              "text" : "Implement this method in your ",
               "type" : "text"
             },
             {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "application by calling the static ",
-              "type" : "text"
-            },
-            {
-              "code" : "main()",
+              "code" : "ParsableCommand",
               "type" : "codeVoice"
             },
             {
-              "text" : " method on the root type.",
+              "text" : "-conforming type with the",
               "type" : "text"
             },
             {
@@ -140,7 +132,16 @@
               "type" : "text"
             },
             {
-              "text" : "This method has a default implementation that prints help text",
+              "text" : "functionality that this command represents.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This method has a default implementation that prints the help screen for",
               "type" : "text"
             },
             {
@@ -148,7 +149,7 @@
               "type" : "text"
             },
             {
-              "text" : "for this command.",
+              "text" : "this command.",
               "type" : "text"
             }
           ],
@@ -165,6 +166,15 @@
   },
   "sections" : [
 
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge"
+      ],
+      "title" : "Implementing a Command’s Behavior"
+    }
   ],
   "variants" : [
     {
@@ -193,6 +203,44 @@
   "title" : "ArgumentParser",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments/validate()-5r0ge": {
+  "abstract" : [
+    {
+      "text" : "Validates the properties of the instance after parsing.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validate"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "validate()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/validate()-5r0ge"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
   "abstract" : [
@@ -264,7 +312,7 @@
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/run()-7p2fr": {
   "abstract" : [
     {
-      "text" : "Runs this command.",
+      "text" : "The behavior or functionality of this command.",
       "type" : "text"
     }
   ],

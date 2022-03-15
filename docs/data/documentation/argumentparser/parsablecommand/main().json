@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Parses an instance of this type, or one of its subcommands, from",
+      "text" : "Executes this command, or one of its subcommands, with the program’s",
       "type" : "text"
     },
     {
@@ -9,23 +9,7 @@
       "type" : "text"
     },
     {
-      "text" : "command-line arguments and calls its ",
-      "type" : "text"
-    },
-    {
-      "code" : "run()",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " method, exiting with a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "relevant error message if necessary.",
+      "text" : "command-line arguments.",
       "type" : "text"
     }
   ],
@@ -120,6 +104,91 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Instead of calling this method directly, you can add ",
+              "type" : "text"
+            },
+            {
+              "code" : "@main",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to the root",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "command for your command-line tool.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This method parses an instance of this type, one of its subcommands, or",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "another built-in ",
+              "type" : "text"
+            },
+            {
+              "code" : "ParsableCommand",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " type, from command-line arguments,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "and then calls its ",
+              "type" : "text"
+            },
+            {
+              "code" : "run()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " method, exiting with a relevant error message",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "if necessary.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -204,7 +273,7 @@
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/main()": {
   "abstract" : [
     {
-      "text" : "Parses an instance of this type, or one of its subcommands, from",
+      "text" : "Executes this command, or one of its subcommands, with the program’s",
       "type" : "text"
     },
     {
@@ -212,23 +281,7 @@
       "type" : "text"
     },
     {
-      "text" : "command-line arguments and calls its ",
-      "type" : "text"
-    },
-    {
-      "code" : "run()",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " method, exiting with a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "relevant error message if necessary.",
+      "text" : "command-line arguments.",
       "type" : "text"
     }
   ],
@@ -268,7 +321,7 @@
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/main(_:)": {
   "abstract" : [
     {
-      "text" : "Parses an instance of this type, or one of its subcommands, from",
+      "text" : "Executes this command, or one of its subcommands, with the given",
       "type" : "text"
     },
     {
@@ -276,23 +329,7 @@
       "type" : "text"
     },
     {
-      "text" : "the given arguments and calls its ",
-      "type" : "text"
-    },
-    {
-      "code" : "run()",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " method, exiting with a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "relevant error message if necessary.",
+      "text" : "arguments.",
       "type" : "text"
     }
   ],

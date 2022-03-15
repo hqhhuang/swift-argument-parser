@@ -66,24 +66,27 @@
               "type" : "text"
             },
             {
-              "code" : "validate()",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " method on any ",
               "type" : "text"
             },
             {
-              "code" : "ParsableCommand",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " or ",
               "type" : "text"
             },
             {
-              "code" : "ParsableArguments",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " type. Throwing an error from the ",
@@ -196,8 +199,9 @@
               "type" : "text"
             },
             {
-              "code" : "ValidationError",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ValidationError",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " type is a special ",
@@ -605,6 +609,112 @@
   "title" : "ExitCode",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/exitcode"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments": {
+  "abstract" : [
+    {
+      "text" : "A type that can be parsed from a program’s command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableArguments",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments/validate()-5r0ge": {
+  "abstract" : [
+    {
+      "text" : "Validates the properties of the instance after parsing.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "validate"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments\/validate()-5r0ge",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "validate()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments\/validate()-5r0ge"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
+  "abstract" : [
+    {
+      "text" : "A type that can be executed as part of a nested tree of commands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablecommand"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ValidationError": {
   "abstract" : [

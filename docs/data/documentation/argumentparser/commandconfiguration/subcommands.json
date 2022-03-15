@@ -109,6 +109,15 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/defaultSubcommand"
+      ],
+      "title" : "Declaring Subcommands"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -170,6 +179,47 @@
   "title" : "CommandConfiguration",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/commandconfiguration"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/defaultSubcommand": {
+  "abstract" : [
+    {
+      "text" : "The default command type to run if no subcommand is given.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultSubcommand"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser15ParsableCommandP",
+      "text" : "ParsableCommand"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type?"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/defaultSubcommand",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultSubcommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/defaultsubcommand"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/subcommands": {
   "abstract" : [

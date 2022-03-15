@@ -176,6 +176,17 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/abstract",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/discussion",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/helpNames"
+      ],
+      "title" : "Customizing the Help Screen"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -237,6 +248,129 @@
   "title" : "CommandConfiguration",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/commandconfiguration"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/abstract": {
+  "abstract" : [
+    {
+      "text" : "A one-line description of this command.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "abstract"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/abstract",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "abstract",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/abstract"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/discussion": {
+  "abstract" : [
+    {
+      "text" : "A longer description of this command, to be shown in the extended help",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "display.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "discussion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/discussion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "discussion",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/discussion"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/helpNames": {
+  "abstract" : [
+    {
+      "text" : "Flag names to be used for help.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpNames"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/helpNames",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpNames",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/helpnames"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/usage": {
   "abstract" : [

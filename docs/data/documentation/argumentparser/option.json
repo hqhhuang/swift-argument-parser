@@ -370,7 +370,7 @@
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/SingleValueParsingStrategy"
       ],
@@ -380,6 +380,7 @@
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-238hg",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-74hnp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArrayParsingStrategy"
       ],
@@ -395,10 +396,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)"
       ],
-      "title" : "Initializers"
+      "title" : "Deprecated APIs"
     },
     {
       "generated" : true,

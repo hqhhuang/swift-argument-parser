@@ -119,13 +119,13 @@
         },
         {
           "code" : [
-            "\/\/ swift-tools-version:5.2",
+            "\/\/ swift-tools-version:5.5",
             "import PackageDescription",
             "",
             "let package = Package(",
-            "    name: \"random\",",
+            "    name: \"Count\",",
             "    dependencies: [",
-            "        .package(url: \"https:\/\/github.com\/apple\/swift-argument-parser.git\", from: \"0.4.0\"),",
+            "        .package(url: \"https:\/\/github.com\/apple\/swift-argument-parser.git\", from: \"1.0.0\"),",
             "    ],",
             "    targets: [",
             "        .target(",
@@ -136,39 +136,6 @@
           ],
           "syntax" : "swift",
           "type" : "codeListing"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Note:",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "strong"
-                },
-                {
-                  "text" : " To read more about creating and configuring packages using Swift Package Manager, see ",
-                  "type" : "text"
-                },
-                {
-                  "identifier" : "https:\/\/swift.org\/getting-started\/#using-the-package-manager",
-                  "isActive" : true,
-                  "type" : "reference"
-                },
-                {
-                  "text" : ".",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "style" : "note",
-          "type" : "aside"
         },
         {
           "anchor" : "Building-Our-First-Command",
@@ -222,6 +189,7 @@
           "code" : [
             "import ArgumentParser",
             "",
+            "@main",
             "struct Count: ParsableCommand {",
             "    @Argument var inputFile: String",
             "    @Argument var outputFile: String",
@@ -234,9 +202,7 @@
             "            ",
             "        \/\/ Read 'inputFile', count the words, and save to 'outputFile'.",
             "    }",
-            "}",
-            "",
-            "Count.main()"
+            "}"
           ],
           "syntax" : "swift",
           "type" : "codeListing"
@@ -300,7 +266,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " is read second.",
+              "text" : " is the second.",
               "type" : "text"
             }
           ],
@@ -326,7 +292,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "Finally, you tell the parser to execute the ",
+              "text" : "Finally, you designate the ",
               "type" : "text"
             },
             {
@@ -334,15 +300,23 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " command by calling its static ",
+              "text" : " command as the program’s entry point by applying the ",
               "type" : "text"
             },
             {
-              "code" : "main()",
+              "code" : "@main",
               "type" : "codeVoice"
             },
             {
-              "text" : " method. This method parses the command-line arguments, verifies that they match up with what we’ve defined in ",
+              "text" : " attribute. When running your command, the ",
+              "type" : "text"
+            },
+            {
+              "code" : "ArgumentParser",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " library parses the command-line arguments, verifies that they match up with what we’ve defined in ",
               "type" : "text"
             },
             {
@@ -913,6 +887,7 @@
             "import ArgumentParser",
             "import Foundation",
             "",
+            "@main",
             "struct Count: ParsableCommand {",
             "    static let configuration = CommandConfiguration(abstract: \"Word counter.\")",
             "    ",
@@ -967,9 +942,7 @@
             "    init(_ description: String) {",
             "        self.description = description",
             "    }",
-            "}",
-            "",
-            "Count.main()"
+            "}"
           ],
           "syntax" : "swift",
           "type" : "codeListing"
@@ -990,8 +963,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand"
       ],
       "title" : "Essentials"
     }
@@ -1024,19 +997,47 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser"
 },
-"doc://ArgumentParser/documentation/ArgumentParser/CommandsAndSubcommands": {
+"doc://ArgumentParser/documentation/ArgumentParser/AsyncParsableCommand": {
   "abstract" : [
     {
-      "text" : "Break complex command-line tools into a tree of subcommands.",
+      "text" : "A type that can be executed asynchronously, as part of a nested tree of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "commands.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Defining Commands and Subcommands",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncParsableCommand",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/commandsandsubcommands"
+  "url" : "\/documentation\/argumentparser\/asyncparsablecommand"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
   "abstract" : [
@@ -1071,18 +1072,6 @@
   "title" : "ParsableCommand",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/parsablecommand"
-},
-"https://swift.org/getting-started/#using-the-package-manager": {
-  "identifier" : "https:\/\/swift.org\/getting-started\/#using-the-package-manager",
-  "title" : "Using the Package Manager",
-  "titleInlineContent" : [
-    {
-      "text" : "Using the Package Manager",
-      "type" : "text"
-    }
-  ],
-  "type" : "link",
-  "url" : "https:\/\/swift.org\/getting-started\/#using-the-package-manager"
 }
 }
 }

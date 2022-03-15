@@ -8,7 +8,8 @@
   "hierarchy" : {
     "paths" : [
       [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
       ]
     ]
   },
@@ -138,8 +139,9 @@
               "type" : "text"
             },
             {
-              "code" : "configuration",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/configuration-35km1",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " property for a command that specifies its subcommands and a default subcommand, if any.",
@@ -220,8 +222,9 @@
               "type" : "text"
             },
             {
-              "code" : "ParsableArguments",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " type with properties that will be shared across multiple subcommands. Types that conform to ",
@@ -319,7 +322,16 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " property wrapper. ",
+              "text" : " property wrapper (see ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : "). ",
               "type" : "text"
             },
             {
@@ -521,7 +533,7 @@
             "                let squaredErrors = values",
             "                    .map { $0 - mean }",
             "                    .map { $0 * $0 }",
-            "                let variance = squaredErrors.reduce(0, +)",
+            "                let variance = squaredErrors.reduce(0, +) \/ Double(values.count)",
             "                let result = variance.squareRoot()",
             "                print(result)",
             "            }",
@@ -535,15 +547,15 @@
         {
           "inlineContent" : [
             {
-              "text" : "Last but not least, we kick off parsing and execution with a call to the static ",
+              "text" : "Last but not least, we add the ",
               "type" : "text"
             },
             {
-              "code" : "main",
+              "code" : "@main",
               "type" : "codeVoice"
             },
             {
-              "text" : " method on the type at the root of our command tree. The call to main parses the command-line arguments, determines whether a subcommand was selected, and then instantiates and calls the ",
+              "text" : " attribute to the root of our command tree, to tell the compiler to use that as the program’s entry point. Upon execution, this parses the command-line arguments, determines whether a subcommand was selected, and then instantiates and calls the ",
               "type" : "text"
             },
             {
@@ -559,7 +571,10 @@
         },
         {
           "code" : [
-            "Math.main()"
+            "@main",
+            "struct Math: ParsableCommand {",
+            "    \/\/ ...",
+            "}"
           ],
           "syntax" : "swift",
           "type" : "codeListing"
@@ -587,7 +602,7 @@
               "type" : "text"
             },
             {
-              "identifier" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/main.swift",
+              "identifier" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/Math.swift",
               "isActive" : true,
               "type" : "reference"
             },
@@ -614,8 +629,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/GettingStarted",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CustomizingCommandHelp"
       ],
       "title" : "Essentials"
     }
@@ -648,19 +662,87 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser"
 },
-"doc://ArgumentParser/documentation/ArgumentParser/GettingStarted": {
+"doc://ArgumentParser/documentation/ArgumentParser/CustomizingCommandHelp": {
   "abstract" : [
     {
-      "text" : "Learn to set up and customize a simple command-line tool.",
+      "text" : "Define your command’s abstract, extended discussion, or usage string, and set the flags used to invoke the help display.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/GettingStarted",
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CustomizingCommandHelp",
   "kind" : "article",
   "role" : "article",
-  "title" : "Getting Started with ArgumentParser",
+  "title" : "Customizing Help for Commands",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/gettingstarted"
+  "url" : "\/documentation\/argumentparser\/customizingcommandhelp"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/OptionGroup": {
+  "abstract" : [
+    {
+      "text" : "A wrapper that transparently includes a parsable type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OptionGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/optiongroup"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments": {
+  "abstract" : [
+    {
+      "text" : "A type that can be parsed from a program’s command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableArguments",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
   "abstract" : [
@@ -696,8 +778,63 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/parsablecommand"
 },
-"https://github.com/apple/swift-argument-parser/blob/main/Examples/math/main.swift": {
-  "identifier" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/main.swift",
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/configuration-35km1": {
+  "abstract" : [
+    {
+      "text" : "Configuration for this command, including subcommands and custom help",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "text.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser20CommandConfigurationV",
+      "text" : "CommandConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/configuration-35km1",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablecommand\/configuration-35km1"
+},
+"https://github.com/apple/swift-argument-parser/blob/main/Examples/math/Math.swift": {
+  "identifier" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/Math.swift",
   "title" : "here",
   "titleInlineContent" : [
     {
@@ -706,7 +843,7 @@
     }
   ],
   "type" : "link",
-  "url" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/main.swift"
+  "url" : "https:\/\/github.com\/apple\/swift-argument-parser\/blob\/main\/Examples\/math\/Math.swift"
 }
 }
 }

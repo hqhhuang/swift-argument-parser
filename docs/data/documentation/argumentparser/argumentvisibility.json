@@ -86,6 +86,17 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CustomizingHelp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentHelp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification"
+      ],
+      "title" : "Property Customization"
+    }
+  ],
   "topicSections" : [
     {
       "identifiers" : [
@@ -123,6 +134,40 @@
   "title" : "ArgumentParser",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ArgumentHelp": {
+  "abstract" : [
+    {
+      "text" : "Help information for a command-line argument.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentHelp"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentHelp",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentHelp"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArgumentHelp",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argumenthelp"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ArgumentVisibility": {
   "abstract" : [
@@ -292,6 +337,62 @@
   "title" : "private",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argumentvisibility\/private"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CustomizingHelp": {
+  "abstract" : [
+    {
+      "text" : "Support your users (and yourself) by providing rich help for arguments, options, and flags.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CustomizingHelp",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Customizing Help",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/customizinghelp"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/NameSpecification": {
+  "abstract" : [
+    {
+      "text" : "A specification for how to represent a property as a command-line argument",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "label.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NameSpecification"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NameSpecification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NameSpecification",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/namespecification"
 }
 }
 }

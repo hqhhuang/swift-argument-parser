@@ -85,7 +85,16 @@
                       "type" : "emphasis"
                     },
                     {
-                      "text" : " are values given by a user and are read in order from first to last. For example, this command is called with three file names as arguments:",
+                      "text" : " are values given by a user and are read in order from first to last (see ",
+                      "type" : "text"
+                    },
+                    {
+                      "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Argument",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : "). For example, this command is called with three file names as arguments:",
                       "type" : "text"
                     }
                   ],
@@ -138,7 +147,16 @@
                       "type" : "codeVoice"
                     },
                     {
-                      "text" : ") or a space. This command is called with two options:",
+                      "text" : ") or a space (see ",
+                      "type" : "text"
+                    },
+                    {
+                      "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : "). This command is called with two options:",
                       "type" : "text"
                     }
                   ],
@@ -167,12 +185,13 @@
                       "type" : "emphasis"
                     },
                     {
-                      "text" : " are like options, but without a paired value. Instead, their presence indicates a particular value (usually ",
+                      "text" : " are like options, but without a paired value. Instead, their presence indicates a particular value (see ",
                       "type" : "text"
                     },
                     {
-                      "code" : "true",
-                      "type" : "codeVoice"
+                      "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag",
+                      "isActive" : true,
+                      "type" : "reference"
                     },
                     {
                       "text" : "). This command is called with two flags:",
@@ -350,14 +369,14 @@
         {
           "code" : [
             "struct Lucky: ParsableCommand {",
-            "  @Argument var numbers = [7, 14, 21]",
+            "    @Argument var numbers = [7, 14, 21]",
             "",
-            "  mutating func run() throws {",
-            "    print(\"\"\"",
-            "    Your lucky numbers are:",
-            "    \\(numbers.map(String.init).joined(separator: \" \"))",
-            "    \"\"\")",
-            "  }",
+            "    mutating func run() throws {",
+            "        print(\"\"\"",
+            "        Your lucky numbers are:",
+            "        \\(numbers.map(String.init).joined(separator: \" \"))",
+            "        \"\"\")",
+            "    }",
             "}"
           ],
           "syntax" : "swift",
@@ -674,8 +693,9 @@
               "type" : "text"
             },
             {
-              "code" : "ExpressibleByArgument",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : " protocol. Standard library integer and floating-point types, strings, and Booleans all conform to ",
@@ -707,8 +727,9 @@
               "type" : "text"
             },
             {
-              "code" : "init?(argument:)",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/init(argument:)",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
               "text" : ":",
@@ -2063,6 +2084,90 @@
   "title" : "EnumerableFlag",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/enumerableflag"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument": {
+  "abstract" : [
+    {
+      "text" : "A type that can be expressed as a command-line argument.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExpressibleByArgument"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExpressibleByArgument"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExpressibleByArgument",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/expressiblebyargument"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ExpressibleByArgument/init(argument:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new instance of this type from a command-line-specified",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "argument.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "argument"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/init(argument:)",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "init(argument:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/expressiblebyargument\/init(argument:)"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/Flag": {
   "abstract" : [

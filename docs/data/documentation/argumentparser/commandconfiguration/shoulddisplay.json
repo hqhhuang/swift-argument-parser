@@ -108,6 +108,16 @@
   "sections" : [
 
   ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/commandName",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/version"
+      ],
+      "title" : "Defining Command Properties"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
@@ -170,6 +180,47 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/commandconfiguration"
 },
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/commandName": {
+  "abstract" : [
+    {
+      "text" : "The name of the command to use on the command line.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "commandName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/commandName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "commandName",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/commandname"
+},
 "doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/shouldDisplay": {
   "abstract" : [
     {
@@ -214,6 +265,43 @@
   "title" : "shouldDisplay",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/commandconfiguration\/shoulddisplay"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CommandConfiguration/version": {
+  "abstract" : [
+    {
+      "text" : "Version information for this command.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/commandconfiguration\/version"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
   "abstract" : [

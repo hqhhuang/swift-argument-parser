@@ -113,7 +113,7 @@
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve"
       ],
       "title" : "Single Options"
@@ -557,7 +557,7 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-2wf44"
 },
-"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:completion:help:)": {
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-7ilku": {
   "abstract" : [
     {
       "text" : "Creates a property with a default value provided by standard Swift default value syntax.",
@@ -596,7 +596,6 @@
       }
     ]
   },
-  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "identifier",
@@ -658,23 +657,6 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "completion"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
-      "text" : "CompletionKind"
-    },
-    {
-      "kind" : "text",
-      "text" : "?, "
-    },
-    {
-      "kind" : "externalParam",
       "text" : "help"
     },
     {
@@ -688,15 +670,32 @@
     },
     {
       "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)",
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(wrappedValue:name:parsing:completion:help:)",
+  "title" : "init(wrappedValue:name:parsing:help:completion:)",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)"
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-2llve": {
   "abstract" : [

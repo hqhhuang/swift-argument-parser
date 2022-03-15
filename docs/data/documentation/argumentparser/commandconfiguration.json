@@ -99,24 +99,39 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/init(commandName:abstract:discussion:version:shouldDisplay:subcommands:defaultSubcommand:helpNames:)",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/init(commandName:abstract:usage:discussion:version:shouldDisplay:subcommands:defaultSubcommand:helpNames:)"
       ],
-      "title" : "Initializers"
+      "title" : "Creating a Configuration"
     },
     {
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/abstract",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/commandName",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/defaultSubcommand",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/discussion",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/helpNames",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/shouldDisplay",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/subcommands",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/usage",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/version"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/helpNames"
       ],
-      "title" : "Instance Properties"
+      "title" : "Customizing the Help Screen"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/subcommands",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/defaultSubcommand"
+      ],
+      "title" : "Declaring Subcommands"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/commandName",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/version",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/shouldDisplay"
+      ],
+      "title" : "Defining Command Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandConfiguration\/init(commandName:abstract:discussion:version:shouldDisplay:subcommands:defaultSubcommand:helpNames:)"
+      ],
+      "title" : "Deprecated APIs"
     }
   ],
   "variants" : [

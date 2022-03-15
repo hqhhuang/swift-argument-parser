@@ -213,7 +213,7 @@
 "doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/run()-7p2fr": {
   "abstract" : [
     {
-      "text" : "Runs this command.",
+      "text" : "The behavior or functionality of this command.",
       "type" : "text"
     }
   ],

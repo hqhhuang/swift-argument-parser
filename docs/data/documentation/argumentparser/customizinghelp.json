@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Support your users (and yourself) by providing rich help for arguments and commands.",
+      "text" : "Support your users (and yourself) by providing rich help for arguments, options, and flags.",
       "type" : "text"
     }
   ],
@@ -144,7 +144,16 @@
         {
           "inlineContent" : [
             {
-              "text" : "You can have more control over the help text by passing an ",
+              "text" : "For more control over the help text, pass an ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentHelp",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " instance instead of a string literal. The ",
               "type" : "text"
             },
             {
@@ -152,15 +161,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : " instance instead. The ",
-              "type" : "text"
-            },
-            {
-              "code" : "ArgumentHelp",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " type can include an abstract (which is what the string literal becomes), a discussion, a value name to use in the usage string, and a Boolean that indicates whether the argument should be visible in the help screen.",
+              "text" : " type can include an abstract (which is what the string literal becomes), a discussion, a value name to use in the usage string, and a visibility level for that argument.",
               "type" : "text"
             }
           ],
@@ -222,121 +223,15 @@
           "type" : "codeListing"
         },
         {
-          "anchor" : "Customizing-Help-for-Commands",
-          "level" : 2,
-          "text" : "Customizing Help for Commands",
+          "anchor" : "Controlling-Argument-Visibility",
+          "level" : 3,
+          "text" : "Controlling Argument Visibility",
           "type" : "heading"
         },
         {
           "inlineContent" : [
             {
-              "text" : "In addition to configuring the command name and subcommands, as described in ",
-              "type" : "text"
-            },
-            {
-              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-              "isActive" : true,
-              "type" : "reference"
-            },
-            {
-              "text" : ", you can also configure a command’s help text by providing an abstract, discussion, or custom usage string.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "struct Repeat: ParsableCommand {",
-            "    static var configuration = CommandConfiguration(",
-            "        abstract: \"Repeats your input phrase.\",",
-            "        usage: \"\"\"",
-            "            repeat <phrase>",
-            "            repeat --count <count> <phrase>",
-            "            \"\"\",",
-            "        discussion: \"\"\"",
-            "            Prints to stdout forever, or until you halt the program.",
-            "            \"\"\")",
-            "",
-            "    @Argument(help: \"The phrase to repeat.\")",
-            "    var phrase: String",
-            "",
-            "    @Option(help: \"How many times to repeat.\")",
-            "    var count: Int?",
-            "",
-            "    mutating func run() throws {",
-            "        for _ in 0..<(count ?? Int.max) {",
-            "            print(phrase) ",
-            "        }",
-            "    }",
-            "}"
-          ],
-          "syntax" : "swift",
-          "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "The abstract and discussion appear in the generated help screen:",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "% repeat --help",
-            "OVERVIEW: Repeats your input phrase.",
-            "",
-            "Prints to stdout forever, or until you halt the program.",
-            "",
-            "USAGE: repeat <phrase>",
-            "       repeat --count <count> <phrase>",
-            "",
-            "ARGUMENTS:",
-            "  <phrase>                The phrase to repeat.",
-            "",
-            "OPTIONS:",
-            "  -h, --help              Show help information.",
-            "",
-            "% repeat hello!",
-            "hello!",
-            "hello!",
-            "hello!",
-            "hello!",
-            "hello!",
-            "hello!",
-            "..."
-          ],
-          "syntax" : null,
-          "type" : "codeListing"
-        },
-        {
-          "anchor" : "Modifying-the-Help-Flag-Names",
-          "level" : 2,
-          "text" : "Modifying the Help Flag Names",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Users can see the help screen for a command by passing either the ",
-              "type" : "text"
-            },
-            {
-              "code" : "-h",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " or the ",
-              "type" : "text"
-            },
-            {
-              "code" : "--help",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " flag, by default. If you need to use one of those flags for another purpose, you can provide alternative names when configuring a root command.",
+              "text" : "You can specify the visibility of any argument, option, or flag.",
               "type" : "text"
             }
           ],
@@ -345,106 +240,11 @@
         {
           "code" : [
             "struct Example: ParsableCommand {",
-            "    static let configuration = CommandConfiguration(",
-            "        helpNames: [.long, .customShort(\"?\")])",
+            "    @Flag(help: ArgumentHelp(\"Show extra info.\", visibility: .hidden))",
+            "    var verbose: Bool = false",
             "",
-            "    @Option(name: .shortAndLong, help: \"The number of history entries to show.\")",
-            "    var historyDepth: Int",
-            "",
-            "    mutating func run() throws {",
-            "        printHistory(depth: historyDepth)",
-            "    }",
-            "}"
-          ],
-          "syntax" : "swift",
-          "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "When running the command, ",
-              "type" : "text"
-            },
-            {
-              "code" : "-h",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " matches the short name of the ",
-              "type" : "text"
-            },
-            {
-              "code" : "historyDepth",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " property, and ",
-              "type" : "text"
-            },
-            {
-              "code" : "-?",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " displays the help screen.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "% example -h 3",
-            "...",
-            "% example -?",
-            "USAGE: example --history-depth <history-depth>",
-            "",
-            "ARGUMENTS:",
-            "  <phrase>                The phrase to repeat.",
-            "",
-            "OPTIONS:",
-            "  -h, --history-depth     The number of history entries to show.",
-            "  -?, --help              Show help information."
-          ],
-          "syntax" : null,
-          "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "When not overridden, custom help names are inherited by subcommands. In this example, the parent command defines ",
-              "type" : "text"
-            },
-            {
-              "code" : "--help",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " and ",
-              "type" : "text"
-            },
-            {
-              "code" : "-?",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " as its help names:",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "code" : [
-            "struct Parent: ParsableCommand {",
-            "    static let configuration = CommandConfiguration(",
-            "        subcommands: [Child.self],",
-            "        helpNames: [.long, .customShort(\"?\")])",
-            "",
-            "    struct Child: ParsableCommand {",
-            "        @Option(name: .shortAndLong, help: \"The host the server will run on.\")",
-            "        var host: String",
-            "    }",
+            "    @Flag(help: ArgumentHelp(\"Use the legacy format.\", visibility: .private))",
+            "    var useLegacyFormat: Bool = false",
             "}"
           ],
           "syntax" : "swift",
@@ -457,27 +257,27 @@
               "type" : "text"
             },
             {
-              "code" : "child",
+              "code" : "--verbose",
               "type" : "codeVoice"
             },
             {
-              "text" : " subcommand inherits the parent’s help names, allowing the user to distinguish between the host argument (",
+              "text" : " flag is only visible in the extended help screen. The ",
               "type" : "text"
             },
             {
-              "code" : "-h",
+              "code" : "--use-legacy-format",
               "type" : "codeVoice"
             },
             {
-              "text" : ") and help (",
+              "text" : " stays hidden even in the extended help screen, due to its ",
               "type" : "text"
             },
             {
-              "code" : "-?",
+              "code" : ".private",
               "type" : "codeVoice"
             },
             {
-              "text" : ").",
+              "text" : " visibility.",
               "type" : "text"
             }
           ],
@@ -485,65 +285,43 @@
         },
         {
           "code" : [
-            "% parent child -h 192.0.0.0",
-            "...",
-            "% parent child -?",
-            "USAGE: parent child --host <host>",
+            "% example --help",
+            "USAGE: example",
             "",
             "OPTIONS:",
-            "  -h, --host <host>       The host the server will run on.",
-            "  -?, --help              Show help information."
+            "  -h, --help              Show help information.",
+            "",
+            "% example --help-hidden",
+            "USAGE: example [--verbose]",
+            "",
+            "OPTIONS:",
+            "  --verbose               Show extra info.",
+            "  -h, --help              Show help information."
           ],
           "syntax" : null,
           "type" : "codeListing"
         },
         {
-          "anchor" : "Hiding-Arguments-and-Commands",
-          "level" : 2,
-          "text" : "Hiding Arguments and Commands",
-          "type" : "heading"
-        },
-        {
           "inlineContent" : [
             {
-              "text" : "You may want to suppress features under development or experimental flags from the generated help screen. You can hide an argument or a subcommand by passing ",
+              "text" : "Alternatively, you can group multiple arguments, options, and flags together as part of a ",
               "type" : "text"
             },
             {
-              "code" : "visibility: .hidden",
-              "type" : "codeVoice"
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+              "isActive" : true,
+              "type" : "reference"
             },
             {
-              "text" : " to the property wrapper or ",
+              "text" : " type, and set the visibility when including them as an ",
               "type" : "text"
             },
             {
-              "code" : "CommandConfiguration",
+              "code" : "@OptionGroup",
               "type" : "codeVoice"
             },
             {
-              "text" : " initializers, respectively.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "code" : "ArgumentHelp",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " includes a ",
-              "type" : "text"
-            },
-            {
-              "code" : ".hidden",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " static property that makes it even simpler to hide arguments:",
+              "text" : " property.",
               "type" : "text"
             }
           ],
@@ -551,32 +329,34 @@
         },
         {
           "code" : [
+            "struct ExperimentalFlags: ParsableArguments {",
+            "    @Flag(help: \"Use the remote access token. (experimental)\")",
+            "    var experimentalUseRemoteAccessToken: Bool = false",
+            "",
+            "    @Flag(help: \"Use advanced security. (experimental)\")",
+            "    var experimentalAdvancedSecurity: Bool = false",
+            "}",
+            "",
             "struct Example: ParsableCommand {",
-            "    @Flag(help: .hidden)",
-            "    var experimentalEnableWidgets: Bool",
+            "    @OptionGroup(visibility: .hidden)",
+            "    var flags: ExperimentalFlags",
             "}"
           ],
           "syntax" : "swift",
           "type" : "codeListing"
         },
         {
-          "anchor" : "Generating-Help-Text-Programmatically",
-          "level" : 2,
-          "text" : "Generating Help Text Programmatically",
-          "type" : "heading"
-        },
-        {
           "inlineContent" : [
             {
-              "text" : "The help screen is automatically shown to users when they call your command with the help flag. You can generate the same text from within your program by calling the ",
+              "text" : "The members of ",
               "type" : "text"
             },
             {
-              "code" : "helpMessage()",
+              "code" : "ExperimentalFlags",
               "type" : "codeVoice"
             },
             {
-              "text" : " method.",
+              "text" : " are only shown in the extended help screen:",
               "type" : "text"
             }
           ],
@@ -584,39 +364,24 @@
         },
         {
           "code" : [
-            "let help = Repeat.helpMessage()",
-            "\/\/ `help` matches the output above",
+            "% example --help",
+            "USAGE: example",
             "",
-            "let fortyColumnHelp = Repeat.helpMessage(columns: 40)",
-            "\/\/ `fortyColumnHelp` is the same help screen, but wrapped to 40 columns"
+            "OPTIONS:",
+            "  -h, --help              Show help information.",
+            "",
+            "% example --help-hidden",
+            "USAGE: example [--experimental-use-remote-access-token] [--experimental-advanced-security]",
+            "",
+            "OPTIONS:",
+            "  --experimental-use-remote-access-token",
+            "                          Use the remote access token. (experimental)",
+            "  --experimental-advanced-security",
+            "                          Use advanced security. (experimental)",
+            "  -h, --help              Show help information."
           ],
-          "syntax" : "swift",
+          "syntax" : null,
           "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "When generating help text for a subcommand, call ",
-              "type" : "text"
-            },
-            {
-              "code" : "helpMessage(for:)",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " on the ",
-              "type" : "text"
-            },
-            {
-              "code" : "ParsableCommand",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " type that represents the root of the command tree and pass the subcommand type as a parameter to ensure the correct display.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -635,6 +400,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentHelp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentVisibility",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification"
       ],
       "title" : "Property Customization"
@@ -702,19 +468,39 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argumenthelp"
 },
-"doc://ArgumentParser/documentation/ArgumentParser/CommandsAndSubcommands": {
+"doc://ArgumentParser/documentation/ArgumentParser/ArgumentVisibility": {
   "abstract" : [
     {
-      "text" : "Break complex command-line tools into a tree of subcommands.",
+      "text" : "Visibility level of an argument’s help.",
       "type" : "text"
     }
   ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Defining Commands and Subcommands",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentVisibility"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentVisibility",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ArgumentVisibility"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArgumentVisibility",
   "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/commandsandsubcommands"
+  "url" : "\/documentation\/argumentparser\/argumentvisibility"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/NameSpecification": {
   "abstract" : [
@@ -757,6 +543,40 @@
   "title" : "NameSpecification",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/namespecification"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments": {
+  "abstract" : [
+    {
+      "text" : "A type that can be parsed from a program’s command-line arguments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableArguments",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments"
 }
 }
 }

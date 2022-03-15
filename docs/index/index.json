@@ -13,12 +13,21 @@
             "type" : "article"
           },
           {
-            "path" : "\/documentation\/argumentparser\/commandsandsubcommands",
-            "title" : "Defining Commands and Subcommands",
-            "type" : "article"
-          },
-          {
             "children" : [
+              {
+                "title" : "Essentials",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/commandsandsubcommands",
+                "title" : "Defining Commands and Subcommands",
+                "type" : "article"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/customizingcommandhelp",
+                "title" : "Customizing Help for Commands",
+                "type" : "article"
+              },
               {
                 "title" : "Implementing a Command’s Behavior",
                 "type" : "groupMarker"
@@ -39,6 +48,24 @@
                 ],
                 "path" : "\/documentation\/argumentparser\/parsablecommand\/run()-7p2fr",
                 "title" : "func run() throws",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/argumentparser\/parsablearguments\/validate()-39ivb",
+                        "title" : "func validate() throws",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "ParsableArguments Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/argumentparser\/parsablearguments\/validate()-5r0ge",
+                "title" : "func validate() throws",
                 "type" : "method"
               },
               {
@@ -66,13 +93,8 @@
               {
                 "children" : [
                   {
-                    "title" : "Initializers",
+                    "title" : "Creating a Configuration",
                     "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/init(commandname:abstract:discussion:version:shoulddisplay:subcommands:defaultsubcommand:helpnames:)",
-                    "title" : "init(commandName: String?, abstract: String, discussion: String, version: String, shouldDisplay: Bool, subcommands: [ParsableCommand.Type], defaultSubcommand: ParsableCommand.Type?, helpNames: NameSpecification?)",
-                    "type" : "init"
                   },
                   {
                     "path" : "\/documentation\/argumentparser\/commandconfiguration\/init(commandname:abstract:usage:discussion:version:shoulddisplay:subcommands:defaultsubcommand:helpnames:)",
@@ -80,7 +102,7 @@
                     "type" : "init"
                   },
                   {
-                    "title" : "Instance Properties",
+                    "title" : "Customizing the Help Screen",
                     "type" : "groupMarker"
                   },
                   {
@@ -89,33 +111,8 @@
                     "type" : "property"
                   },
                   {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/commandname",
-                    "title" : "var commandName: String?",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/defaultsubcommand",
-                    "title" : "var defaultSubcommand: ParsableCommand.Type?",
-                    "type" : "property"
-                  },
-                  {
                     "path" : "\/documentation\/argumentparser\/commandconfiguration\/discussion",
                     "title" : "var discussion: String",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/helpnames",
-                    "title" : "var helpNames: NameSpecification?",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/shoulddisplay",
-                    "title" : "var shouldDisplay: Bool",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/subcommands",
-                    "title" : "var subcommands: [ParsableCommand.Type]",
                     "type" : "property"
                   },
                   {
@@ -124,9 +121,51 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/helpnames",
+                    "title" : "var helpNames: NameSpecification?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Declaring Subcommands",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/subcommands",
+                    "title" : "var subcommands: [ParsableCommand.Type]",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/defaultsubcommand",
+                    "title" : "var defaultSubcommand: ParsableCommand.Type?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Defining Command Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/commandname",
+                    "title" : "var commandName: String?",
+                    "type" : "property"
+                  },
+                  {
                     "path" : "\/documentation\/argumentparser\/commandconfiguration\/version",
                     "title" : "var version: String",
                     "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/shoulddisplay",
+                    "title" : "var shouldDisplay: Bool",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Deprecated APIs",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/commandconfiguration\/init(commandname:abstract:discussion:version:shoulddisplay:subcommands:defaultsubcommand:helpnames:)",
+                    "title" : "init(commandName: String?, abstract: String, discussion: String, version: String, shouldDisplay: Bool, subcommands: [ParsableCommand.Type], defaultSubcommand: ParsableCommand.Type?, helpNames: NameSpecification?)",
+                    "type" : "init"
                   }
                 ],
                 "path" : "\/documentation\/argumentparser\/commandconfiguration",
@@ -147,13 +186,13 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/argumentparser\/parsablecommand\/main(_:)",
-                "title" : "static func main([String]?)",
+                "path" : "\/documentation\/argumentparser\/parsablecommand\/main()",
+                "title" : "static func main()",
                 "type" : "method"
               },
               {
-                "path" : "\/documentation\/argumentparser\/parsablecommand\/main()",
-                "title" : "static func main()",
+                "path" : "\/documentation\/argumentparser\/parsablecommand\/main(_:)",
+                "title" : "static func main([String]?)",
                 "type" : "method"
               },
               {
@@ -177,6 +216,56 @@
             ],
             "path" : "\/documentation\/argumentparser\/parsablecommand",
             "title" : "ParsableCommand",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Implementing a Command’s Behavior",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/asyncparsablecommand\/run()",
+                "title" : "func run() async throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Starting the Program",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/asyncparsablecommand\/main()",
+                "title" : "static func main() async",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Associated Types",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/asyncmainprotocol\/command",
+                    "title" : "Command",
+                    "type" : "associatedtype"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/argumentparser\/asyncmainprotocol\/main()",
+                    "title" : "static func main() async",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/argumentparser\/asyncmainprotocol",
+                "title" : "AsyncMainProtocol",
+                "type" : "protocol"
+              }
+            ],
+            "path" : "\/documentation\/argumentparser\/asyncparsablecommand",
+            "title" : "AsyncParsableCommand",
             "type" : "protocol"
           },
           {
@@ -350,8 +439,8 @@
                 "type" : "init"
               },
               {
-                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)",
-                "title" : "init(wrappedValue: Value, name: NameSpecification, parsing: SingleValueParsingStrategy, completion: CompletionKind?, help: ArgumentHelp?)",
+                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku",
+                "title" : "init(wrappedValue: Value, name: NameSpecification, parsing: SingleValueParsingStrategy, help: ArgumentHelp?, completion: CompletionKind?)",
                 "type" : "init"
               },
               {
@@ -417,6 +506,11 @@
               {
                 "path" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-74hnp",
                 "title" : "init<Element>(name: NameSpecification, parsing: ArrayParsingStrategy, help: ArgumentHelp?, completion: CompletionKind?, transform: (String) throws -> Element)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-1dtbf",
+                "title" : "init<Element>(wrappedValue: [Element], name: NameSpecification, parsing: ArrayParsingStrategy, help: ArgumentHelp?, completion: CompletionKind?)",
                 "type" : "init"
               },
               {
@@ -495,17 +589,12 @@
                 "type" : "property"
               },
               {
-                "title" : "Initializers",
+                "title" : "Deprecated APIs",
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-1dtbf",
-                "title" : "init<Element>(wrappedValue: [Element], name: NameSpecification, parsing: ArrayParsingStrategy, help: ArgumentHelp?, completion: CompletionKind?)",
-                "type" : "init"
-              },
-              {
-                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku",
-                "title" : "init(wrappedValue: Value, name: NameSpecification, parsing: SingleValueParsingStrategy, help: ArgumentHelp?, completion: CompletionKind?)",
+                "path" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)",
+                "title" : "init(wrappedValue: Value, name: NameSpecification, parsing: SingleValueParsingStrategy, completion: CompletionKind?, help: ArgumentHelp?)",
                 "type" : "init"
               },
               {
@@ -743,7 +832,16 @@
           {
             "children" : [
               {
-                "title" : "Initializers",
+                "title" : "Creating an Option Group",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/optiongroup\/init(visibility:)",
+                "title" : "init(visibility: ArgumentVisibility)",
+                "type" : "init"
+              },
+              {
+                "title" : "Infrequently Used APIs",
                 "type" : "groupMarker"
               },
               {
@@ -757,12 +855,13 @@
                 "type" : "init"
               },
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
                 "path" : "\/documentation\/argumentparser\/optiongroup\/wrappedvalue",
                 "title" : "var wrappedValue: Value",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/optiongroup\/description",
+                "title" : "var description: String",
                 "type" : "property"
               },
               {
@@ -799,13 +898,6 @@
               {
                 "children" : [
                   {
-                    "children" : [
-                      {
-                        "path" : "\/documentation\/argumentparser\/parsablearguments\/validate()-39ivb",
-                        "title" : "func validate() throws",
-                        "type" : "method"
-                      }
-                    ],
                     "title" : "ParsableArguments Implementations",
                     "type" : "groupMarker"
                   }
@@ -1144,6 +1236,32 @@
           {
             "children" : [
               {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/argumentvisibility\/default",
+                "title" : "static let `default`: ArgumentVisibility",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/argumentvisibility\/hidden",
+                "title" : "static let hidden: ArgumentVisibility",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/argumentparser\/argumentvisibility\/private",
+                "title" : "static let `private`: ArgumentVisibility",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/argumentparser\/argumentvisibility",
+            "title" : "ArgumentVisibility",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Structures",
                 "type" : "groupMarker"
               },
@@ -1300,12 +1418,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-6ptln",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-9o6vc",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-9o6vc",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-6ptln",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       },
@@ -1699,36 +1817,6 @@
             "path" : "\/documentation\/argumentparser\/experimentalfeatures",
             "title" : "Experimental Features",
             "type" : "article"
-          },
-          {
-            "title" : "Structures",
-            "type" : "groupMarker"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Type Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/argumentparser\/argumentvisibility\/default",
-                "title" : "static let `default`: ArgumentVisibility",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/argumentparser\/argumentvisibility\/hidden",
-                "title" : "static let hidden: ArgumentVisibility",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/argumentparser\/argumentvisibility\/private",
-                "title" : "static let `private`: ArgumentVisibility",
-                "type" : "property"
-              }
-            ],
-            "path" : "\/documentation\/argumentparser\/argumentvisibility",
-            "title" : "ArgumentVisibility",
-            "type" : "struct"
           }
         ],
         "path" : "\/documentation\/argumentparser",

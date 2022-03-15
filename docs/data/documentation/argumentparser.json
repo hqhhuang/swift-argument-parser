@@ -264,8 +264,8 @@
     {
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/GettingStarted",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand"
       ],
       "title" : "Essentials"
     },
@@ -284,6 +284,7 @@
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CustomizingHelp",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentHelp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentVisibility",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification"
       ],
       "title" : "Property Customization"
@@ -318,12 +319,6 @@
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExperimentalFeatures"
       ],
       "title" : "Advanced Topics"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArgumentVisibility"
-      ],
-      "title" : "Structures"
     }
   ],
   "variants" : [
@@ -456,6 +451,48 @@
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argumentvisibility"
 },
+"doc://ArgumentParser/documentation/ArgumentParser/AsyncParsableCommand": {
+  "abstract" : [
+    {
+      "text" : "A type that can be executed asynchronously, as part of a nested tree of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "commands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/asyncparsablecommand"
+},
 "doc://ArgumentParser/documentation/ArgumentParser/CleanExit": {
   "abstract" : [
     {
@@ -497,20 +534,6 @@
   "title" : "CleanExit",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/cleanexit"
-},
-"doc://ArgumentParser/documentation/ArgumentParser/CommandsAndSubcommands": {
-  "abstract" : [
-    {
-      "text" : "Break complex command-line tools into a tree of subcommands.",
-      "type" : "text"
-    }
-  ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CommandsAndSubcommands",
-  "kind" : "article",
-  "role" : "article",
-  "title" : "Defining Commands and Subcommands",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/commandsandsubcommands"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/CompletionKind": {
   "abstract" : [
@@ -563,7 +586,7 @@
 "doc://ArgumentParser/documentation/ArgumentParser/CustomizingHelp": {
   "abstract" : [
     {
-      "text" : "Support your users (and yourself) by providing rich help for arguments and commands.",
+      "text" : "Support your users (and yourself) by providing rich help for arguments, options, and flags.",
       "type" : "text"
     }
   ],

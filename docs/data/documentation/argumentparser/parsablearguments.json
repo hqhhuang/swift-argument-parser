@@ -142,6 +142,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand"
       ],
       "kind" : "relationships",
@@ -290,6 +291,48 @@
   "title" : "Argument",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/argument"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/AsyncParsableCommand": {
+  "abstract" : [
+    {
+      "text" : "A type that can be executed asynchronously, as part of a nested tree of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "commands.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/AsyncParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AsyncParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AsyncParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/asyncparsablecommand"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/CompletionShell": {
   "abstract" : [
