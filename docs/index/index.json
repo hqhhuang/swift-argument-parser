@@ -53,13 +53,6 @@
               {
                 "children" : [
                   {
-                    "children" : [
-                      {
-                        "path" : "\/documentation\/argumentparser\/parsablearguments\/validate()-39ivb",
-                        "title" : "func validate() throws",
-                        "type" : "method"
-                      }
-                    ],
                     "title" : "ParsableArguments Implementations",
                     "type" : "groupMarker"
                   }
@@ -1418,7 +1411,7 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-9o6vc",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-5keru",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       },
@@ -1428,7 +1421,7 @@
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-5keru",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-9o6vc",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       }
