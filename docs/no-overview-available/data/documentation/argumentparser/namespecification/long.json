@@ -1,1 +1,234 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"long"},{"kind":"text","text":": "},{"kind":"typeIdentifier","identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV","text":"NameSpecification"},{"kind":"text","text":" { "},{"kind":"keyword","text":"get"},{"kind":"text","text":" }"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/argumentparser\/namespecification\/long"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification\/long","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"No overview available."}],"kind":"symbol","metadata":{"role":"symbol","title":"long","roleHeading":"Type Property","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"long"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"}],"symbolKind":"property","externalID":"s:14ArgumentParser17NameSpecificationV4longACvpZ","extendedModule":"ArgumentParser","modules":[{"name":"ArgumentParser"}]},"hierarchy":{"paths":[["doc:\/\/ArgumentParser\/documentation\/ArgumentParser","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification"]]},"references":{"doc://ArgumentParser/documentation/ArgumentParser":{"role":"collection","title":"ArgumentParser","abstract":[{"type":"text","text":"Straightforward, type-safe argument parsing for Swift."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser"},"doc://ArgumentParser/documentation/ArgumentParser/NameSpecification":{"role":"symbol","title":"NameSpecification","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"NameSpecification"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"NameSpecification"}],"url":"\/documentation\/argumentparser\/namespecification"},"doc://ArgumentParser/documentation/ArgumentParser/NameSpecification/long":{"role":"symbol","title":"long","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"long"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification\/long","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/namespecification\/long"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification\/long"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "ArgumentParser",
+    "externalID" : "s:14ArgumentParser17NameSpecificationV4longACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "long"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+        "text" : "NameSpecification"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "long"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "long"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+              "text" : "NameSpecification"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/namespecification\/long"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/NameSpecification": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NameSpecification"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NameSpecification"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NameSpecification",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/namespecification"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/NameSpecification/long": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "long"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/NameSpecification\/long",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "long",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/namespecification\/long"
+}
+}
+}

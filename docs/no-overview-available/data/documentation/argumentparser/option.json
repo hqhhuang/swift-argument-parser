@@ -1,1 +1,1818 @@
-{"seeAlsoSections":[{"title":"Arguments, Options, and Flags","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Argument","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments"],"generated":true}],"schemaVersion":{"major":0,"minor":2,"patch":0},"metadata":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Option"}],"title":"Option","roleHeading":"Structure","role":"symbol","symbolKind":"struct","externalID":"s:14ArgumentParser6OptionV","modules":[{"name":"ArgumentParser"}],"navigatorTitle":[{"kind":"identifier","text":"Option"}]},"abstract":[{"type":"text","text":"No overview available."}],"sections":[],"identifier":{"url":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option","interfaceLanguage":"swift"},"relationshipsSections":[{"identifiers":["doc:\/\/ArgumentParser\/s23CustomStringConvertibleP","doc:\/\/ArgumentParser\/Se"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"hierarchy":{"paths":[["doc:\/\/ArgumentParser\/documentation\/ArgumentParser"]]},"topicSections":[{"title":"Single Options","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/SingleValueParsingStrategy"]},{"title":"Array Options","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-238hg","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-74hnp","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArrayParsingStrategy"]},{"title":"Infrequently Used APIs","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init()","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue"]},{"title":"Deprecated APIs","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)"]},{"title":"Default Implementations","identifiers":["doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/CustomStringConvertible-Implementations"],"generated":true}],"variants":[{"paths":["\/documentation\/argumentparser\/option"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"attribute","text":"@propertyWrapper"},{"kind":"text","text":" "},{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Option"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Value"},{"kind":"text","text":">"}],"languages":["swift"],"platforms":["macOS"]}]}],"references":{"doc://ArgumentParser/documentation/ArgumentParser/Option":{"role":"symbol","title":"Option","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Option"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Option"}],"url":"\/documentation\/argumentparser\/option"},"doc://ArgumentParser/s23CustomStringConvertibleP":{"type":"unresolvable","title":"Swift.CustomStringConvertible","identifier":"doc:\/\/ArgumentParser\/s23CustomStringConvertibleP"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-2llve":{"role":"symbol","title":"init(wrappedValue:name:parsing:help:completion:transform:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"wrappedValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Value"},{"kind":"text","text":", "},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"transform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Value"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:transform:)-2llve"},"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments":{"role":"symbol","title":"ParsableArguments","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"ParsableArguments"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"ParsableArguments"}],"url":"\/documentation\/argumentparser\/parsablearguments"},"doc://ArgumentParser/documentation/ArgumentParser/Option/wrappedValue":{"role":"symbol","title":"wrappedValue","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"wrappedValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Value"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/wrappedvalue"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init()":{"role":"symbol","title":"init()","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init()","kind":"symbol","type":"topic","deprecated":true,"url":"\/documentation\/argumentparser\/option\/init()"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-74hnp":{"role":"symbol","title":"init(name:parsing:help:completion:transform:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Element"},{"kind":"text","text":">("},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArrayParsingStrategy","preciseIdentifier":"s:14ArgumentParser20ArrayParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"transform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-74hnp","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-74hnp"},"doc://ArgumentParser/documentation/ArgumentParser":{"role":"collection","title":"ArgumentParser","abstract":[{"type":"text","text":"Straightforward, type-safe argument parsing for Swift."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(from:)":{"role":"symbol","title":"init(from:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(from:)"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-4yske":{"conformance":{"constraints":[{"type":"codeVoice","code":"Value"},{"type":"text","text":" conforms to "},{"type":"codeVoice","code":"ExpressibleByArgument"},{"type":"text","text":"."}],"availabilityPrefix":[{"type":"text","text":"Available when"}],"conformancePrefix":[{"type":"text","text":"Conforms when"}]},"role":"symbol","title":"init(name:parsing:help:completion:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-4yske"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-7slrf":{"role":"symbol","title":"init(name:parsing:help:completion:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"T"},{"kind":"text","text":">("},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-7slrf"},"doc://ArgumentParser/Se":{"type":"unresolvable","title":"Swift.Decodable","identifier":"doc:\/\/ArgumentParser\/Se"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:completion:help:)":{"conformance":{"constraints":[{"type":"codeVoice","code":"Value"},{"type":"text","text":" conforms to "},{"type":"codeVoice","code":"ExpressibleByArgument"},{"type":"text","text":"."}],"availabilityPrefix":[{"type":"text","text":"Available when"}],"conformancePrefix":[{"type":"text","text":"Conforms when"}]},"role":"symbol","title":"init(wrappedValue:name:parsing:completion:help:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"wrappedValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Value"},{"kind":"text","text":", "},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)","kind":"symbol","type":"topic","deprecated":true,"url":"\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)"},"doc://ArgumentParser/documentation/ArgumentParser/OptionGroup":{"role":"symbol","title":"OptionGroup","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"OptionGroup"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"OptionGroup"}],"url":"\/documentation\/argumentparser\/optiongroup"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-2wf44":{"role":"symbol","title":"init(name:parsing:help:completion:transform:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"transform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Value"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-2wf44"},"doc://ArgumentParser/documentation/ArgumentParser/Flag":{"role":"symbol","title":"Flag","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Flag"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Flag"}],"url":"\/documentation\/argumentparser\/flag"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-7ilku":{"conformance":{"constraints":[{"type":"codeVoice","code":"Value"},{"type":"text","text":" conforms to "},{"type":"codeVoice","code":"ExpressibleByArgument"},{"type":"text","text":"."}],"availabilityPrefix":[{"type":"text","text":"Available when"}],"conformancePrefix":[{"type":"text","text":"Conforms when"}]},"role":"symbol","title":"init(wrappedValue:name:parsing:help:completion:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"wrappedValue"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Value"},{"kind":"text","text":", "},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SingleValueParsingStrategy","preciseIdentifier":"s:14ArgumentParser26SingleValueParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-1dtbf":{"role":"symbol","title":"init(wrappedValue:name:parsing:help:completion:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Element"},{"kind":"text","text":">("},{"kind":"externalParam","text":"wrappedValue"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":"], "},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArrayParsingStrategy","preciseIdentifier":"s:14ArgumentParser20ArrayParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-1dtbf"},"doc://ArgumentParser/documentation/ArgumentParser/SingleValueParsingStrategy":{"role":"symbol","title":"SingleValueParsingStrategy","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"SingleValueParsingStrategy"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/SingleValueParsingStrategy","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"SingleValueParsingStrategy"}],"url":"\/documentation\/argumentparser\/singlevalueparsingstrategy"},"doc://ArgumentParser/documentation/ArgumentParser/ArrayParsingStrategy":{"role":"symbol","title":"ArrayParsingStrategy","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"ArrayParsingStrategy"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArrayParsingStrategy","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"ArrayParsingStrategy"}],"url":"\/documentation\/argumentparser\/arrayparsingstrategy"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto":{"role":"symbol","title":"init(wrappedValue:name:parsing:help:completion:transform:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Element"},{"kind":"text","text":">("},{"kind":"externalParam","text":"wrappedValue"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":"], "},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArrayParsingStrategy","preciseIdentifier":"s:14ArgumentParser20ArrayParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"transform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"Element"},{"kind":"text","text":")"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:transform:)-1kpto"},"doc://ArgumentParser/documentation/ArgumentParser/Argument":{"role":"symbol","title":"Argument","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Argument"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Argument","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Argument"}],"url":"\/documentation\/argumentparser\/argument"},"doc://ArgumentParser/documentation/ArgumentParser/DeclaringArguments":{"role":"article","title":"Declaring Arguments, Options, and Flags","abstract":[{"type":"text","text":"Use the "},{"type":"codeVoice","code":"@Argument"},{"type":"text","text":", "},{"type":"codeVoice","code":"@Option"},{"type":"text","text":" and "},{"type":"codeVoice","code":"@Flag"},{"type":"text","text":" property wrappers to declare the command-line interface for your command."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments","kind":"article","type":"topic","url":"\/documentation\/argumentparser\/declaringarguments"},"doc://ArgumentParser/documentation/ArgumentParser/Option/CustomStringConvertible-Implementations":{"role":"collectionGroup","title":"CustomStringConvertible Implementations","abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/CustomStringConvertible-Implementations","kind":"article","type":"topic","url":"\/documentation\/argumentparser\/option\/customstringconvertible-implementations"},"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-238hg":{"role":"symbol","title":"init(name:parsing:help:completion:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Element"},{"kind":"text","text":">("},{"kind":"externalParam","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NameSpecification","preciseIdentifier":"s:14ArgumentParser17NameSpecificationV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"parsing"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArrayParsingStrategy","preciseIdentifier":"s:14ArgumentParser20ArrayParsingStrategyV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"help"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ArgumentHelp","preciseIdentifier":"s:14ArgumentParser0A4HelpV"},{"kind":"text","text":"?, "},{"kind":"externalParam","text":"completion"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"CompletionKind","preciseIdentifier":"s:14ArgumentParser14CompletionKindV"},{"kind":"text","text":"?)"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-238hg","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-238hg"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14ArgumentParser6OptionV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Option"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Option"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Option"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@propertyWrapper"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Option"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Value"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/s23CustomStringConvertibleP",
+        "doc:\/\/ArgumentParser\/Se"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Argument",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments"
+      ],
+      "title" : "Arguments, Options, and Flags"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/SingleValueParsingStrategy"
+      ],
+      "title" : "Single Options"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-238hg",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-74hnp",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArrayParsingStrategy"
+      ],
+      "title" : "Array Options"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init()",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue"
+      ],
+      "title" : "Infrequently Used APIs"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)"
+      ],
+      "title" : "Deprecated APIs"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/CustomStringConvertible-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/option"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ArgumentParser/Se": {
+  "identifier" : "doc:\/\/ArgumentParser\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Argument": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Argument"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Argument",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Argument"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Argument",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/argument"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ArrayParsingStrategy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ArrayParsingStrategy"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ArrayParsingStrategy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ArrayParsingStrategy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ArrayParsingStrategy",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/arrayparsingstrategy"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/DeclaringArguments": {
+  "abstract" : [
+    {
+      "text" : "Use the ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Argument",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Option",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " and ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Flag",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " property wrappers to declare the command-line interface for your command.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/DeclaringArguments",
+  "kind" : "article",
+  "role" : "article",
+  "title" : "Declaring Arguments, Options, and Flags",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/declaringarguments"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Flag": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Flag",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/flag"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Option",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/CustomStringConvertible-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/CustomStringConvertible-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "CustomStringConvertible Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/customstringconvertible-implementations"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init()"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(from:)"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-238hg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser20ArrayParsingStrategyV",
+      "text" : "ArrayParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-238hg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-238hg"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-4yske": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Value",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "ExpressibleByArgument",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-4yske",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-4yske"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:)-7slrf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:)-7slrf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:)-7slrf"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-2wf44": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-2wf44",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-2wf44"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(name:parsing:help:completion:transform:)-74hnp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser20ArrayParsingStrategyV",
+      "text" : "ArrayParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(name:parsing:help:completion:transform:)-74hnp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(name:parsing:help:completion:transform:)-74hnp"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:completion:help:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Value",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "ExpressibleByArgument",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:completion:help:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:completion:help:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:completion:help:)"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-1dtbf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser20ArrayParsingStrategyV",
+      "text" : "ArrayParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-1dtbf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-1dtbf"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:)-7ilku": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Value",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "ExpressibleByArgument",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:)-7ilku",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:)-7ilku"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser20ArrayParsingStrategyV",
+      "text" : "ArrayParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Element"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-1kpto",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:transform:)-1kpto"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/init(wrappedValue:name:parsing:help:completion:transform:)-2llve": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser17NameSpecificationV",
+      "text" : "NameSpecification"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "parsing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser26SingleValueParsingStrategyV",
+      "text" : "SingleValueParsingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "help"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser0A4HelpV",
+      "text" : "ArgumentHelp"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser14CompletionKindV",
+      "text" : "CompletionKind"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "transform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/init(wrappedValue:name:parsing:help:completion:transform:)-2llve",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(wrappedValue:name:parsing:help:completion:transform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/init(wrappedvalue:name:parsing:help:completion:transform:)-2llve"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Option/wrappedValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wrappedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Value"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Option\/wrappedValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wrappedValue",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/option\/wrappedvalue"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/OptionGroup": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/OptionGroup",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OptionGroup"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OptionGroup",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/optiongroup"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableArguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableArguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableArguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableArguments",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablearguments"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/SingleValueParsingStrategy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SingleValueParsingStrategy"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/SingleValueParsingStrategy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SingleValueParsingStrategy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SingleValueParsingStrategy",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/singlevalueparsingstrategy"
+},
+"doc://ArgumentParser/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/ArgumentParser\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,1 +1,172 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"init"},{"kind":"text","text":"()"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/argumentparser\/flag\/init()"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"No overview available."}],"kind":"symbol","metadata":{"role":"symbol","title":"init()","roleHeading":"Initializer","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"symbolKind":"init","externalID":"s:14ArgumentParser4FlagVACyxGycfc","modules":[{"name":"ArgumentParser"}],"platforms":[]},"hierarchy":{"paths":[["doc:\/\/ArgumentParser\/documentation\/ArgumentParser","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag"]]},"deprecationSummary":[{"type":"paragraph","inlineContent":[{"type":"text","text":"A default value must be provided unless the value type is supported by Flag."}]}],"references":{"doc://ArgumentParser/documentation/ArgumentParser/Flag":{"role":"symbol","title":"Flag","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Flag"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Flag"}],"url":"\/documentation\/argumentparser\/flag"},"doc://ArgumentParser/documentation/ArgumentParser/Flag/init()":{"role":"symbol","title":"init()","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()","kind":"symbol","type":"topic","deprecated":true,"url":"\/documentation\/argumentparser\/flag\/init()"},"doc://ArgumentParser/documentation/ArgumentParser":{"role":"collection","title":"ArgumentParser","abstract":[{"type":"text","text":"Straightforward, type-safe argument parsing for Swift."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "A default value must be provided unless the value type is supported by Flag.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14ArgumentParser4FlagVACyxGycfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/flag\/init()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Flag": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Flag"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Flag",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/flag"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/Flag/init()": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/flag\/init()"
+}
+}
+}

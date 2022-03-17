@@ -1,1 +1,387 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"helpRequest"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"command"},{"kind":"text","text":": "},{"kind":"typeIdentifier","identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand","preciseIdentifier":"s:14ArgumentParser15ParsableCommandP","text":"ParsableCommand"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit","preciseIdentifier":"s:14ArgumentParser9CleanExitV","text":"CleanExit"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/argumentparser\/cleanexit\/helprequest(_:)-9qiuh"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit\/helpRequest(_:)-9qiuh","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"No overview available."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"helpRequest"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"ParsableCommand","preciseIdentifier":"s:14ArgumentParser15ParsableCommandP"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"CleanExit","preciseIdentifier":"s:14ArgumentParser9CleanExitV"}],"title":"helpRequest(_:)","roleHeading":"Type Method","role":"symbol","symbolKind":"method","externalID":"s:14ArgumentParser9CleanExitV11helpRequestyAcA15ParsableCommand_pFZ","modules":[{"name":"ArgumentParser"}]},"hierarchy":{"paths":[["doc:\/\/ArgumentParser\/documentation\/ArgumentParser","doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit"]]},"references":{"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand":{"role":"symbol","title":"ParsableCommand","fragments":[{"kind":"keyword","text":"protocol"},{"kind":"text","text":" "},{"kind":"identifier","text":"ParsableCommand"}],"abstract":[{"type":"codeVoice","code":"ParsableCommand"},{"type":"text","text":" types are the basic building blocks for command-line tools built using "},{"type":"codeVoice","code":"ArgumentParser"},{"type":"text","text":". To create a command, declare properties using the "},{"type":"codeVoice","code":"@Argument"},{"type":"text","text":", "},{"type":"codeVoice","code":"@Option"},{"type":"text","text":", and "},{"type":"codeVoice","code":"@Flag"},{"type":"text","text":" property wrappers, or include groups of options with "},{"type":"codeVoice","code":"@OptionGroup"},{"type":"text","text":". Finally, implement your command’s functionality in the "},{"type":"reference","isActive":true,"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/run()-7p2fr"},{"type":"text","text":" method."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"ParsableCommand"}],"url":"\/documentation\/argumentparser\/parsablecommand"},"doc://ArgumentParser/documentation/ArgumentParser/CleanExit":{"role":"symbol","title":"CleanExit","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"CleanExit"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"CleanExit"}],"url":"\/documentation\/argumentparser\/cleanexit"},"doc://ArgumentParser/documentation/ArgumentParser/CleanExit/helpRequest(_:)-9qiuh":{"role":"symbol","title":"helpRequest(_:)","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"helpRequest"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"ParsableCommand","preciseIdentifier":"s:14ArgumentParser15ParsableCommandP"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"CleanExit","preciseIdentifier":"s:14ArgumentParser9CleanExitV"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit\/helpRequest(_:)-9qiuh","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser\/cleanexit\/helprequest(_:)-9qiuh"},"doc://ArgumentParser/documentation/ArgumentParser":{"role":"collection","title":"ArgumentParser","abstract":[{"type":"text","text":"Straightforward, type-safe argument parsing for Swift."}],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser","kind":"symbol","type":"topic","url":"\/documentation\/argumentparser"},"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/run()-7p2fr":{"defaultImplementations":1,"role":"symbol","title":"run()","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"run"},{"kind":"text","text":"() "},{"kind":"keyword","text":"throws"}],"abstract":[],"identifier":"doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/run()-7p2fr","kind":"symbol","required":true,"type":"topic","url":"\/documentation\/argumentparser\/parsablecommand\/run()-7p2fr"}}}
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit\/helpRequest(_:)-9qiuh"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14ArgumentParser9CleanExitV11helpRequestyAcA15ParsableCommand_pFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "helpRequest"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14ArgumentParser15ParsableCommandP",
+        "text" : "ParsableCommand"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14ArgumentParser9CleanExitV",
+        "text" : "CleanExit"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ArgumentParser"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "helpRequest(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "helpRequest"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "command"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14ArgumentParser15ParsableCommandP",
+              "text" : "ParsableCommand"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14ArgumentParser9CleanExitV",
+              "text" : "CleanExit"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/argumentparser\/cleanexit\/helprequest(_:)-9qiuh"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://ArgumentParser/documentation/ArgumentParser": {
+  "abstract" : [
+    {
+      "text" : "Straightforward, type-safe argument parsing for Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ArgumentParser",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CleanExit": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CleanExit"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CleanExit"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CleanExit",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/cleanexit"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/CleanExit/helpRequest(_:)-9qiuh": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser15ParsableCommandP",
+      "text" : "ParsableCommand"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14ArgumentParser9CleanExitV",
+      "text" : "CleanExit"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/CleanExit\/helpRequest(_:)-9qiuh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpRequest(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/cleanexit\/helprequest(_:)-9qiuh"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand": {
+  "abstract" : [
+    {
+      "code" : "ParsableCommand",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " types are the basic building blocks for command-line tools built using ",
+      "type" : "text"
+    },
+    {
+      "code" : "ArgumentParser",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". To create a command, declare properties using the ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Argument",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Option",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", and ",
+      "type" : "text"
+    },
+    {
+      "code" : "@Flag",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " property wrappers, or include groups of options with ",
+      "type" : "text"
+    },
+    {
+      "code" : "@OptionGroup",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Finally, implement your command’s functionality in the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/run()-7p2fr",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " method.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParsableCommand"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ParsableCommand",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablecommand"
+},
+"doc://ArgumentParser/documentation/ArgumentParser/ParsableCommand/run()-7p2fr": {
+  "abstract" : [
+
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "run"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ParsableCommand\/run()-7p2fr",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "run()",
+  "type" : "topic",
+  "url" : "\/documentation\/argumentparser\/parsablecommand\/run()-7p2fr"
+}
+}
+}
