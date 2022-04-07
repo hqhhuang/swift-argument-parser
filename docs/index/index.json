@@ -1411,12 +1411,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-5keru",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-6ptln",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-6ptln",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/allvaluestrings-5keru",
                         "title" : "static var allValueStrings: [String]",
                         "type" : "property"
                       },
@@ -1439,12 +1439,12 @@
                   {
                     "children" : [
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/defaultcompletionkind-5hmqe",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/defaultcompletionkind-vjh9",
                         "title" : "static var defaultCompletionKind: CompletionKind",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/defaultcompletionkind-vjh9",
+                        "path" : "\/documentation\/argumentparser\/expressiblebyargument\/defaultcompletionkind-5hmqe",
                         "title" : "static var defaultCompletionKind: CompletionKind",
                         "type" : "property"
                       }

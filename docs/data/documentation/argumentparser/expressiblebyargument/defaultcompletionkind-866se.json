@@ -16,8 +16,8 @@
   "defaultImplementationsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultCompletionKind-5hmqe",
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultCompletionKind-vjh9"
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultCompletionKind-vjh9",
+        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/ExpressibleByArgument\/defaultCompletionKind-5hmqe"
       ],
       "title" : "ExpressibleByArgument Implementations"
     }
@@ -168,7 +168,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
