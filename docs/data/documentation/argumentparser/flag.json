@@ -474,12 +474,6 @@
       "title" : "Supporting Types"
     },
     {
-      "identifiers" : [
-        "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()"
-      ],
-      "title" : "Deprecated APIs"
-    },
-    {
       "generated" : true,
       "identifiers" : [
         "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/CustomStringConvertible-Implementations"
@@ -636,95 +630,6 @@
   "title" : "CustomStringConvertible Implementations",
   "type" : "topic",
   "url" : "\/documentation\/argumentparser\/flag\/customstringconvertible-implementations"
-},
-"doc://ArgumentParser/documentation/ArgumentParser/Flag/init()": {
-  "abstract" : [
-    {
-      "text" : "This initializer works around a quirk of property wrappers, where the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "compiler will not see no-argument initializers in extensions. Explicitly",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "marking this initializer unavailable means that when ",
-      "type" : "text"
-    },
-    {
-      "code" : "Value",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " is a type",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "supported by ",
-      "type" : "text"
-    },
-    {
-      "code" : "Flag",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " like ",
-      "type" : "text"
-    },
-    {
-      "code" : "Bool",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " or ",
-      "type" : "text"
-    },
-    {
-      "code" : "EnumerableFlag",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ", the appropriate",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "overload will be selected instead.",
-      "type" : "text"
-    }
-  ],
-  "deprecated" : true,
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/ArgumentParser\/documentation\/ArgumentParser\/Flag\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/argumentparser\/flag\/init()"
 },
 "doc://ArgumentParser/documentation/ArgumentParser/Flag/init(exclusivity:help:)-38n7u": {
   "abstract" : [
@@ -1257,7 +1162,7 @@
         "type" : "text"
       },
       {
-        "code" : "Optional<Bool>",
+        "code" : "Bool?",
         "type" : "codeVoice"
       },
       {

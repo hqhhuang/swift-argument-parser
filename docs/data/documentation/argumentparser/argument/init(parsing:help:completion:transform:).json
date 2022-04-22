@@ -277,16 +277,7 @@
             },
             {
               "kind" : "text",
-              "text" : " == "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sa",
-              "text" : "Array"
-            },
-            {
-              "kind" : "text",
-              "text" : "<"
+              "text" : " == ["
             },
             {
               "kind" : "typeIdentifier",
@@ -294,7 +285,7 @@
             },
             {
               "kind" : "text",
-              "text" : ">"
+              "text" : "]"
             }
           ]
         }

@@ -666,7 +666,7 @@
         "type" : "text"
       },
       {
-        "code" : "Optional<Bool>",
+        "code" : "Bool?",
         "type" : "codeVoice"
       },
       {

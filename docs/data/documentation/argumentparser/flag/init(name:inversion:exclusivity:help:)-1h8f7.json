@@ -50,7 +50,7 @@
           "type" : "text"
         },
         {
-          "code" : "Optional<Bool>",
+          "code" : "Bool?",
           "type" : "codeVoice"
         },
         {
@@ -704,7 +704,7 @@
         "type" : "text"
       },
       {
-        "code" : "Optional<Bool>",
+        "code" : "Bool?",
         "type" : "codeVoice"
       },
       {
